@@ -14,36 +14,36 @@ function OurBrand() {
           src="/delamare.png"
           alt="delamare"
           className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={120}
-          height={120}
+          width={100}
+          height={100}
         />
         <Image
           src="/azam.png"
           alt="azam"
           className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={120}
-          height={120}
+          width={100}
+          height={100}
         />
         <Image
           src="/cocacola.png"
           alt="cocacola"
           className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={120}
-          height={120}
+          width={100}
+          height={100}
         />
         <Image
           src="/ramtos.png"
           alt="ramtos"
           className="h-[50px] w-50px object-contain"
-          width={120}
-          height={120}
+          width={100}
+          height={100}
         />
         <Image
           src="/cel.png"
           alt="cel"
-          className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={120}
-          height={120}
+          className="h-[50px] w-40px object-contain lg:h-[150px] lg:w-[120px] overflow-hidden"
+          width={100}
+          height={100}
         />
       </div>
     </section>
