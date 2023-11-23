@@ -31,7 +31,7 @@ function Header() {
                 <p className="hidden lg:block lg:text-[1rem] text-[0.7rem]">
                   {desc}
                 </p>
-                <button className="bg-[#A31621] text-white px-2 text-[0.7rem] lg:text-[1rem] py-1 lg:p-2 lg:mt-4 rounded -mt-2">
+                <button className="bg-[#A31621] text-white px-2 text-[0.7rem] lg:text-[1rem] py-1 lg:p-2 lg:mt-4 rounded -mt-5">
                   {btnText}
                 </button>
               </div>
