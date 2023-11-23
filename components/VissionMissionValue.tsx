@@ -8,7 +8,7 @@ function VissionMissionValue() {
       <div className=" bg-[#4E8098] lg:h-[150px] h-[250px]  -skew-y-[2deg] shadow-lg"></div>
       <div className=" bg-[#CED3DC] lg:h-[150px] h-[250px] -skew-y-[2deg]"></div>
       <div className=" absolute lg:top-40   top-64 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:flex items-center justify-around  lg:p-10 lg:gap-12 gap-2 ">
-        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 border-[#4E8098] shadow-lg">
+        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 lg:border-[#4E8098] shadow-lg">
           <VisibilityOutlinedIcon
             className=" !lg:h-20 lg:w-20 underline"
             style={{ height: "50px", width: "100px", color: "#A31621" }}
@@ -22,7 +22,7 @@ function VissionMissionValue() {
             trusted partnerships.
           </p>
         </div>
-        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 border-[#4E8098] shadow-lg">
+        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 lg:border-[#4E8098] shadow-lg">
           <CheckCircleOutlineIcon
             style={{ height: "50px", width: "100px", color: "#A31621" }}
           />
@@ -34,7 +34,7 @@ function VissionMissionValue() {
             service.
           </p>
         </div>
-        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 border-[#4E8098] shadow-lg">
+        <div className=" bg-[#fcf7f8] rounded-full lg:h-72 lg:w-72  h-40 w-40 text-center p-6 flex flex-col items-center justify-center mb-2 border-2 lg:border-[#4E8098] shadow-lg">
           <AssignmentTurnedInIcon
             style={{ height: "50px", width: "100px", color: "#A31621" }}
           />
