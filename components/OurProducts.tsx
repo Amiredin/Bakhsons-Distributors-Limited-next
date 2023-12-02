@@ -32,8 +32,11 @@ export default function OurProducts() {
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 3000,
-    cssEase: "linear",
+    cssEase:"ease-in-out",
     arrows: false,
+    pauseOnHover: true,
+    variableWidth: true,
+    adaptiveHeight: true
     // beforeChange: (oldIndex: any, newIndex: any) => setCurrentSlide(newIndex),
     // afterChange: (currentIndex: any) => setCurrentSlide(currentIndex),
   };
@@ -46,9 +49,12 @@ export default function OurProducts() {
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 3000,
-    cssEase: "linear",
+    cssEase:"ease-in-out",
     rtl: true, // Set to true for reverse direction
     arrows: false,
+    pauseOnHover: true,
+    variableWidth: true,
+    adaptiveHeight: true
   };
 
   return (
@@ -80,9 +86,9 @@ export default function OurProducts() {
                 <Image
                   src={image}
                   alt={`Image ${title}`}
-                  className="w-[105px] h-full p-5 object-cover"
+                  className="w-[105px] h-full p-5 mr-16 object-cover"
                 />
-                <p>{title}</p>
+                <p className="mr-16">{title}</p>
               </div>
             </>
           ))}
@@ -115,7 +121,9 @@ export default function OurProducts() {
                 <Image
                   src={image}
                   alt={`Image ${title}`}
-                  className="w-[175px] h-full p-5 object-cove"
+                  className=" p-5 object-cover"
+                  height={150}
+                  width={150}
                 />
                 <p>{title}</p>
               </div>
@@ -139,22 +147,30 @@ export default function OurProducts() {
         </div>
         <Slider
           {...settings}
-          className="bg-[#CED3DC] pb-0 pt-7 lg:w-[60%] mt0 flex align-baseline"
+          className="bg-[#CED3DC] pb-0 pt-7 lg:w-[60%] mt0 !flex items-stretch "
           beforeChange={handleBeforeChange}
           afterChange={handleAfterChange}
+    
         >
           {confectioneryCarouselData.map(
             ({ image, title }: ConfectioneryType, index) => (
               <div
                 key={title}
-                className={`!flex flex-col items-center justify-center`}
+                className={`!flex flex-col items-center justify-center `}
+                style={{ verticalAlign: "baseline" }}
               >
+              
+
                 <Image
                   src={image}
                   alt={`Image ${title}`}
-                  className="w-[375px] h-[250x] p-5 object-cover align-baseline"
+                  className=" p-5 object-cover align-baseline"
+                  //width={200}
+                  height={130}
+                 
                 />
-                <p>{title}</p>
+                <p className="">{title}</p>
+              
               </div>
             )
           )}

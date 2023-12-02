@@ -48,13 +48,7 @@ function TrustedBy() {
           width={150}
           height={150}
         />
-        <Image
-          src="/mountain.png"
-          alt="mountain"
-          className=" lg:h-[100px] lg:w-[150px] h-[80px] w-[80px] object-contain"
-          width={150}
-          height={150}
-        />
+    
       </Slider>
 
       <div className="flex mt-5 p-10 justify-center items-center gap-[12rem]">

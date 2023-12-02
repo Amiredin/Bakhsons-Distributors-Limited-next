@@ -1,52 +1,53 @@
-import delamare from "../assets/delamare.png";
-import azam from "../assets/azam.png";
-import cocacola from "../assets/cocacola.png";
-import ramtos from "../assets/ramtos.png";
-import cel from "../assets/cel.png";
 import Image from "next/image";
 
 function OurBrand() {
   return (
-    <section className=" mb-8" id="our-brands">
-      <h1>Our Brands</h1>
-      <div className="flex items-center justify-center lg:gap-10 gap-4">
+    <><section className=" mb-8" id="our-brands">
+    <h1 className="mb-[50px]">Our Brands</h1>
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-2">
+      <Image
+        src="/CopiSafiN.svg"
+        alt="Copi safi"
+        className="object-contain overflow-hidden"
+        width={200}
+        height={200}
+      />
+    </div>
+  </section>
+  <section className=" mb-8 mt-16" id="our-brands">
+      <h1 className="mb-[50px]">Our Partners</h1>
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 gap-2">
         <Image
-          src="/delamare.png"
+          src="/ulker-logo.svg"
           alt="delamare"
-          className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={100}
-          height={100}
+          className="object-contain"
+          width={150}
+          height={150}
         />
         <Image
           src="/azam.png"
           alt="azam"
-          className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={100}
-          height={100}
-        />
-        <Image
-          src="/cocacola.png"
-          alt="cocacola"
-          className="h-[50px] w-50px object-contain lg:h-[150px] lg:w-[120px]"
-          width={100}
-          height={100}
+          className="object-contain"
+          width={150}
+          height={150}
         />
         <Image
           src="/ramtos.png"
           alt="ramtos"
-          className="h-[50px] w-50px object-contain"
-          width={100}
-          height={100}
+          className="object-contain"
+          width={150}
+          height={150}
         />
         <Image
-          src="/cel.png"
+          src="/gel_logo.svg"
           alt="cel"
-          className="h-[50px] w-40px object-contain lg:h-[150px] lg:w-[120px] overflow-hidden"
-          width={100}
-          height={100}
+          className="object-contain overflow-hidden"
+          width={150}
+          height={150}
         />
       </div>
     </section>
+    </>
   );
 }
 
