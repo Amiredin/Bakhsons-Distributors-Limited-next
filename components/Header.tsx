@@ -8,14 +8,15 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <header className="relative mb-10" id="home">
+    <header className="relative mb-10 h-[80]  bg-[#4E8098]" id="home">
       <Carousel
         showArrows={false}
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
+        dynamicHeight={true}
         // showIndicators={false}
-        className=" "
+        // className="h-[100px] "
       >
         {heroCarouselData.map(
           ({ title, image, btnText, desc }: CarouselType) => (
@@ -23,11 +24,11 @@ function Header() {
               <Image
                 src={image}
                 alt=""
-                className="object-cover w-full h-full"
+                className="object-cover w-full lg:h-[100%] h-[200px]"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300"></div>
-              <div className="absolute top-12 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-                <h2 className="lg:text-3xl text-[0.6rem] font-bold mb-3">{title}</h2>
+              <div className="absolute top-[100px] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+                <h2 className="lg:text-3xl text-[0.8rem] font-bold mb-3">{title}</h2>
                 <p className="hidden lg:block lg:text-[1rem] text-[0.7rem]">
                   {desc}
                 </p>

@@ -8,7 +8,7 @@ function WhoWeAre() {
   return (
     <section
       id="about-us"
-      className="  lg:h-[950px] lg:w-full lg:flex flex-col justify-center items-center lg:p-16 mb-28 "
+      className=" lg:h-[950px] w-full flex flex-col justify-center items-center lg:p-16 mb-28 "
     >
       <Lottie animationData={QuestionMark} className="h-[300px] w-full mt-[100px] mb-[30px] self-center "></Lottie>
       <h1>Who we are</h1>
@@ -25,7 +25,7 @@ In Kenya, we are well established with a highly professional sales, marketing, w
         <Image
           src="/whoweare.png"
           alt="whoweare"
-          className="lg:mr-16 object-contain"
+          className="lg:m-auto object-contain"
           width={330}
           height={330}
         />
