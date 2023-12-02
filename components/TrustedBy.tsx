@@ -9,6 +9,7 @@ import trm from "../assets/Trm.png";
 import mountain from "../assets/mountain.png";
 import kenya from "../assets/kenya.png";
 import Image from "next/image";
+import KenyaSvg from "../public/kenya.svg";
 
 function TrustedBy() {
   const settings = {
@@ -79,8 +80,16 @@ function TrustedBy() {
           </h2>
         </div>
         <div>
+      
+
+
+    
+
+
+    
+
           <Image
-            src="/kenya.png"
+            src="/kenya.svg"
             alt="kenya"
             className="lg:h-[450px] lg:w-[450px] h-[300px] w-[350px] object-contain"
             width={650}

@@ -1,25 +1,26 @@
+"use client"
 import Image from "next/image";
 import whoweare from "../assets/whoweare.png";
+import Lottie from "lottie-react";
+import QuestionMark from "../public/NewQuestionMark.json"
 
 function WhoWeAre() {
   return (
     <section
       id="about-us"
-      className="  lg:h-[650px] lg:w-full lg:flex lg:flex-col justify-center items-center lg:p-16 mb-28"
+      className="  lg:h-[950px] lg:w-full lg:flex flex-col justify-center items-center lg:p-16 mb-28 "
     >
+      <Lottie animationData={QuestionMark} className="h-[300px] w-full mt-[100px] mb-[30px] self-center "></Lottie>
       <h1>Who we are</h1>
-      <div className="mt-10 md:flex lg:flex lg:flex-row-reverse items-center justify-between  lg:p-10 p-5">
-        <p className=" lg:text-center lg:text-[1rem] text-[0.7rem] mb-8">
-          Bakhsons Distributors Ltd is a prominent food and beverage
-          distribution company that was established in 2005 in Nairobi, Kenya.
-          Since its inception, the company has experienced significant growth
-          and has emerged as one of the leading distributors of high-quality
-          food and beverage products throughout Kenya. With its headquarters
-          situated in Nairobi, Bakhsons Distributors operates an extensive
-          network of distribution centers across the country, enabling efficient
-          and widespread delivery of their products. The company's commitment to
-          providing quality products has contributed to its success and
-          reputation in the Kenyan market.
+      <div className="mt-10 md:flex lg:flex lg:flex-row-reverse items-center justify-center gap-[20px]  lg:p-10 p-5">
+        <p className=" text-center lg:text-[1rem] text-[0.7rem] mb-8 lg:w-[50%] ">
+        Bakhsons Distributors Limited was established on 3rd October, 2007 in Kenya under the company’s Act Cap 486. It is a privately owned international trading and distribution company. Our management has many years experience in the fields of importing and distributing. The basic function of the company is to source, market and distribute foodstuffs and beverages from both the domestic and overseas markets.
+
+The company has grown rapidly since then and now employs over 50 people with warehouse and office space in the main economic centres of Mombasa, Nairobi with the head office situated in Nairobi.
+
+In Kenya, we are well established with a highly professional sales, marketing, warehousing and distribution operation. Consequently we are able to deal with all the major supermarkets and independent retail operators. We are continuously sourcing products, which we feel have the potential to impact on the Kenyan market. We have all the necessary experience, knowledge and capital to ensure the success of our suppliers.
+
+
         </p>
         <Image
           src="/whoweare.png"

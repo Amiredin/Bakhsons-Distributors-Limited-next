@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="sticky top-0 z-50 w-full flex items-center justify-center lg:justify-around p-5 bg-[#4E8098] text-white h-[50px]">
+        <nav className="sticky top-0 z-50 w-full flex items-center justify-center lg:justify-between p-5 bg-[#4E8098] text-white h-[50px]">
           <div>
             <h2 className=" font-semibold cursor-pointer">
               Bakhsons Distributors Limited
