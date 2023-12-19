@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaInstagram, FaPhoneAlt, FaTiktok } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -110,27 +110,34 @@ function Contacts() {
         <ContactInfo
           title="Email"
           icon={MdOutlineMailOutline}
-          text="support@bakhsons.co.ke"
+          text="sales@bakhressa.co.ke"
         />
-        <ContactInfo title="Call" icon={FaPhoneAlt} text="+254712345678" />
+        <ContactInfo title="Call" icon={FaPhoneAlt} text="+254721333666" />
         <ContactInfo
           title="Text"
           icon={RiWhatsappFill}
-          text="+254712345678"
+          text="+254721333666"
           color="text-[green]"
         />
         <ContactInfo
           title="Like"
           icon={FaFacebook}
+          text="Bakhsons Products"
+          color="text-[#1877F2]"
+        />
+        <ContactInfo
+          title="Follow"
+          icon={FaTiktok}
           text="bakhsons"
           color="text-[#1877F2]"
         />
         <ContactInfo
           title="Follow"
-          icon={FaTwitter}
-          text="bakhsons"
+          icon={FaInstagram}
+          text="bakhsonsdistributors"
           color="text-[#1877F2]"
         />
+        
       </div>
     </section>
   );

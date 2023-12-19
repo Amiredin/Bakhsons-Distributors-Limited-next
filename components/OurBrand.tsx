@@ -12,6 +12,13 @@ function OurBrand() {
         width={200}
         height={200}
       />
+      <Image
+        src="/AllDay.png"
+        alt="All Day"
+        className="object-contain overflow-hidden"
+        width={300}
+        height={300}
+      />
     </div>
   </section>
   <section className=" mb-8 mt-16" id="our-brands">

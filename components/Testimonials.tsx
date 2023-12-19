@@ -19,9 +19,11 @@ function Testimonials() {
             seamless experience!
           </p>
           <div className="flex flex-col  text-[#4E8098] p-3">
-            <p className=" text-center text-[#4E8098] mt-5 mb-1">Faraj Said</p>
+            <p className=" text-center text-[#4E8098] mt-5 mb-1">
+              {/* Faraj Said */}
+              </p>
             <p className=" font-bold text-[#4E8098] text-center">
-              CEP BulkMart Traders
+            Quickmart
             </p>
           </div>
         </div>
@@ -33,9 +35,11 @@ function Testimonials() {
             products, and excellent customer support. Highly recommended!
           </p>
           <div className="flex flex-col  text-[#4E8098] p-3">
-            <p className=" text-center text-[#4E8098] mt-5 mb-1">Peter Juma</p>
+            <p className=" text-center text-[#4E8098] mt-5 mb-1">
+              {/* Peter Juma */}
+              </p>
             <p className=" font-bold text-[#4E8098] text-center">
-              Director, PrimeBuy Wholesale
+            Magunas Khetias
             </p>
           </div>
         </div>
@@ -48,8 +52,10 @@ function Testimonials() {
           </p>
 
           <div className="flex flex-col  text-[#4E8098] p-3">
-            <p className=" text-center  mt-5 mb-1">Ali Hassan</p>
-            <p className=" font-bold ">CEO, TradeMax</p>
+            <p className=" text-center  mt-5 mb-1">
+              {/* Ali Hassan */}
+              </p>
+            <p className=" font-bold ">Cleanshelf</p>
           </div>
         </div>
         <div></div>
